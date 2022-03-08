@@ -15,6 +15,9 @@ for (let i=0;i<uzvaretajuSkaits; i++){
     let uzvaretajuSkaits = vardi[rand];
     let uzvaretajs = (vardi[rand]);
     //izvada konsolē
-}
 rindas.innerHTML +=`
 //pievieno +, lai pieskaitītu nākamo
+<tr>
+    <td>${i+1}</td>
+    <td>${uzvaretajs}</td>
+</tr>` //izvade vairākās rindās
