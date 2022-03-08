@@ -6,11 +6,15 @@ const naudaKopa = 10000000;
 
 let uzvaretajuSkaits = 5;
 
+let rindas = document.querySelector('.rindas'); //pievieno mainīgo
+
 for (let i=0;i<uzvaretajuSkaits; i++){
     let rand = Math.random()*vardi.length;
     rand = Math.floor(rand);
     //noapaļo uz leju
     let uzvaretajuSkaits = vardi[rand];
-    console.log (vardi[rand]);
+    let uzvaretajs = (vardi[rand]);
     //izvada konsolē
 }
+rindas.innerHTML +=`
+//pievieno +, lai pieskaitītu nākamo
