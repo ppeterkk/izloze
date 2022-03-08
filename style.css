@@ -1,0 +1,24 @@
+table, th, td {
+    border: 1px solid;
+    width: 20%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+ 
+td, th {
+    color: white;
+    background-color: #04AA6D;
+  }
+
+img {
+    width: 500px;
+    position: center;
+}
+
+h1 {
+    text-align: center;
+}
